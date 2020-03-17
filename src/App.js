@@ -1,13 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
 
 function App() {
   return (
     <Router>
-    <div>
-      <Nav />
-      {/* <Switch>
+      <div>
+        <Nav />
+        {/* <Switch>
         <Route exact path={["/", "/about"]}>
           <About />
         </Route>
@@ -18,7 +18,7 @@ function App() {
           <Contact />
         </Route>
       </Switch> */}
-    </div>
+      </div>
     </Router>
   );
 }
