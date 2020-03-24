@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function Nav() {
   return (
@@ -24,19 +25,19 @@ function Nav() {
       >
         <ul className="navbar-nav justify-content-end">
           <li className="nav-item active p-2">
-            <a className="nav-link" href="#">
-              About<span className="sr-only">(current)</span>
-            </a>
+            <Link className="nav-link" to="/">
+              About
+            </Link>
           </li>
-          <li className="nav-item p-2">
-            <a className="nav-link" href="#">
+          <li className="nav-item active p-2">
+            <Link className="nav-link" to="/portfolio">
               Portfolio
-            </a>
+            </Link>
           </li>
           <li className="nav-item p-2">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
