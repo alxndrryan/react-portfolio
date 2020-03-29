@@ -4,9 +4,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">
-        Alexander
-      </a>
+      <h1>Alexander</h1>
       <button
         className="navbar-toggler"
         type="button"
@@ -34,7 +32,7 @@ function Nav() {
               Portfolio
             </Link>
           </li>
-          <li className="nav-item p-2">
+          <li className="nav-item active p-2">
             <Link className="nav-link" to="/contact">
               Contact
             </Link>

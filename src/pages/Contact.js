@@ -7,7 +7,7 @@ function Contact() {
       <Row>
         <Col size="md-1"></Col>
         <Col size="col-md-6">
-          <h1>Contact</h1>
+          <h2>Contact</h2>
           <hr />
         </Col>
       </Row>
@@ -23,7 +23,6 @@ function Contact() {
                 placeholder=""
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Enter email"
               />
               <div className="form-group">
                 <label for="exampleInputPassword1">Email</label>
@@ -32,7 +31,6 @@ function Contact() {
                   className="form-control"
                   placeholder=""
                   id="exampleInputPassword1"
-                  placeholder="Password"
                 />
                 <div className="form-group">
                   <label for="exampleFormControlTextarea1">Message</label>

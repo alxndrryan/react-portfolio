@@ -7,7 +7,7 @@ function Portfolio() {
       <Row>
         <Col size="md-1"></Col>
         <Col size="col-md-6">
-          <h1>Portfolio</h1>
+          <h2>Portfolio</h2>
           <hr />
         </Col>
       </Row>

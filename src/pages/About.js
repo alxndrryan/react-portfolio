@@ -8,7 +8,7 @@ function About() {
       <Row>
         <Col size="md-1"></Col>
         <Col size="col-md-6">
-          <h1>About Me</h1>
+          <h2>About Me</h2>
           <hr />
         </Col>
       </Row>
