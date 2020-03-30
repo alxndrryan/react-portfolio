@@ -1,5 +1,8 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
+import ProjectCard from "../components/Project";
+import projects from "../projects.json";
+import Wrapper from "../components/Wrapper";
 
 function Portfolio() {
   return (
@@ -11,6 +14,13 @@ function Portfolio() {
           <hr />
         </Col>
       </Row>
+      <Wrapper>
+        <Row>
+          {projects.map(project => (
+            <ProjectCard image={project.image} />
+          ))}
+        </Row>
+      </Wrapper>
     </Container>
   );
 }
