@@ -1,31 +1,31 @@
 [{
         "id": 1,
-        "name": "cryptostock",
+        "name": "Cryptostock",
         "image": "https://alxndryn.github.io/wk-2-hw/assets/images/new-cryptostock.png"
     },
     {
         "id": 2,
-        "name": "myooz",
+        "name": "Myooz",
         "image": "https://alxndryn.github.io/wk-2-hw/assets/images/Myooz.png"
     },
     {
         "id": 3,
-        "name": "employee-template-engine",
+        "name": "Employee Template Engine",
         "image": "https://alxndryn.github.io/wk-2-hw/assets/images/employee-template-engine.png"
     },
     {
         "id": 4,
-        "name": "note-taker",
+        "name": "Note Taker",
         "image": "https://alxndryn.github.io/wk-2-hw/assets/images/note-taker.png"
     },
     {
         "id": 5,
-        "name": "pdf-profile",
+        "name": "PDF Profile Generator",
         "image": "https://alxndryn.github.io/wk-2-hw/assets/images/pdf-profile.png"
     },
     {
         "id": 6,
-        "name": "employee-tracker",
+        "name": "Employee Tracker",
         "image": "https://alxndryn.github.io/wk-2-hw/assets/images/employee-tracker.png"
     }
 ]

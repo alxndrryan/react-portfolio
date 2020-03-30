@@ -22,8 +22,8 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        <Footer />
       </div>
-      <Footer />
     </Router>
   );
 }

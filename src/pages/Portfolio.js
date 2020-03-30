@@ -17,7 +17,7 @@ function Portfolio() {
       <Wrapper>
         <Row>
           {projects.map(project => (
-            <ProjectCard image={project.image} />
+            <ProjectCard name={project.name} image={project.image} />
           ))}
         </Row>
       </Wrapper>

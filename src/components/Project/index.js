@@ -10,7 +10,7 @@ function ProjectCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Name</strong> {props.name}
+            <strong>Name: </strong> {props.name}
           </li>
         </ul>
       </div>
